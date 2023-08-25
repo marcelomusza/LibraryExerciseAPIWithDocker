@@ -1,6 +1,6 @@
 ﻿# Library Exercise with Docker
 
-This repository contains a .NET application that serves as a library management system. The application is designed to run both locally and within a Docker container, providing flexibility for development and deployment.
+This repository contains a .NET application that serves as a library management system, upgraded to have a RESTful API along with a Console UI with an actionable menu. The application is designed to run both locally and within a Docker container, providing flexibility for development and deployment.
 This example does not require you to have Docker installed since you can run it locally, but I'm also including a dockerfile basic configuration so you can run it on a Container. I highly advice you to do that so you can practice Docker playing around with this exercise.
 
 ## Features
