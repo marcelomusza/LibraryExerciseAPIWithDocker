@@ -46,7 +46,7 @@ NOTE: The dockerfile configuration is pointing to a default published version of
 
 2. **Run the Docker container**:
    ```bash
-   docker run -it --rm libraryexercise
+   docker run -d -p 8080:80 --name library_container libraryexercise
    ```
 
 ## Contributing
