@@ -5,9 +5,9 @@ This example does not require you to have Docker installed since you can run it 
 
 ## Features
 
-- CRUD operations for books.
+- RESTful API with exposed endpoints with CRUD operations for books
 - Clean architecture design.
-- Command Pattern for user interactions.
+- Command Pattern for user interactions (CONSOLE APP - LEGACY).
 - Repository Pattern and the use of an In-Memory database for data handling
 - Default books added through a Seed operation
 - Docker support for easy deployment.
@@ -21,18 +21,18 @@ This example does not require you to have Docker installed since you can run it 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/marcelomusza/LibraryExerciseWithDocker.git
+   git clone https://github.com/marcelomusza/LibraryExerciseAPIWithDocker.git
    ```
 
 2. **Navigate to the project directory and build the solution**:
    ```bash
-   cd LibraryExerciseWithDocker
+   cd LibraryExerciseAPIWithDocker
    dotnet build
    ```
 
 3. **Run the application**:
    ```bash
-   dotnet run --project .\LibraryExercise.ConsoleUI\LibraryExercise.ConsoleUI.csproj
+   dotnet run --project .\LibraryExercise.API\LibraryExercise.API.csproj
    ```   
 
 ## Running the Application in Docker
